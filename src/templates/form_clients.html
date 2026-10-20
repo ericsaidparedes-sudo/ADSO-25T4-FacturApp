@@ -30,7 +30,7 @@
         </div>
     </nav>
 
-    <!-- Formulario exacto a la foto del profesor -->
+    
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-7">
@@ -43,14 +43,14 @@
                     <div class="card-body p-4">
                         <form action="{{ url_for('form_clients') }}" method="POST">
                             
-                            <!-- Campo Name (exacto a la foto) -->
+                            
                             <div class="mb-3">
                                 <label for="name" class="form-label fw-semibold">Full Name / Razón Social</label>
                                 <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" placeholder="Ej: Servitécnica S.A.S." required>
                                 <div id="nameHelp" class="form-text">Write your full name.</div>
                             </div>
 
-                            <!-- Campo Identification Type (exacto a la foto) -->
+                           
                             <div class="mb-3">
                                 <label for="idType" class="form-label fw-semibold">Identification Number</label>
                                 <select class="form-select" id="idType" name="idType" aria-label="idTypeHelp" required>
@@ -64,21 +64,21 @@
                                 <div id="idTypeHelp" class="form-text">Write your identification number.</div>
                             </div>
 
-                            <!-- Campo Identification Number (exacto a la foto) -->
+                            
                             <div class="mb-3">
                                 <label for="idNumber" class="form-label fw-semibold">Identification Number</label>
                                 <input type="text" class="form-control" id="idNumber" name="idNumber" aria-describedby="idNumberHelp" placeholder="Ej: 900123456-1" required>
                                 <div id="idNumberHelp" class="form-text">Write your identification number.</div>
                             </div>
 
-                            <!-- Campo Address (exacto a la foto) -->
+                            
                             <div class="mb-3">
                                 <label for="adress" class="form-label fw-semibold">Adress</label>
                                 <input type="text" class="form-control" id="adress" name="address" aria-describedby="adressHelp" placeholder="Ej: Zona Industrial Cúcuta" required>
                                 <div id="adressHelp" class="form-text">Write your home adress.</div>
                             </div>
 
-                            <!-- Campo Email (exacto a la foto) -->
+                            
                             <div class="mb-4">
                                 <label for="exampleInputEmail1" class="form-label fw-semibold">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="contacto@proveedor.com" required>
