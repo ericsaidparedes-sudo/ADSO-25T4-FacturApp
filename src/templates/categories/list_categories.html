@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2>Categorías de repuestos</h2>
+    <a class="btn" href="{{ url_for('categories.form_categories') }}">Nueva categoría</a>
+    <br><br>
+    <table>
+        <tr>
+            <th>Nombre</th>
+        </tr>
+        <tr><td>Compresores</td></tr>
+        <tr><td>Válvulas</td></tr>
+        <tr><td>Motores de ventilador</td></tr>
+    </table>
+{% endblock %}

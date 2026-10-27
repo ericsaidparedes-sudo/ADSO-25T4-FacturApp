@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container mt-4">
+    <h2>Nuevo repuesto</h2>
+    <form>
+        <label class="form-label">Nombre del repuesto</label>
+        <input type="text" name="nombre" class="form-control mb-3">
+
+        <label class="form-label">Categoría</label>
+        <select name="categoria" class="form-select mb-3">
+            <option>Compresores</option>
+            <option>Válvulas</option>
+            <option>Motores de ventilador</option>
+        </select>
+
+        <label class="form-label">Cantidad</label>
+        <input type="number" name="cantidad" class="form-control mb-3">
+
+        <button type="button" class="btn btn-primary">Guardar</button>
+    </form>
+</div>
+{% endblock %}

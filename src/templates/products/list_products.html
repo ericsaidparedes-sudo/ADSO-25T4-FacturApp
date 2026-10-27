@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container mt-4">
+    <h2>Repuestos</h2>
+    <a class="btn btn-primary mb-3" href="/form_products">Nuevo repuesto</a>
+    <table class="table table-striped">
+        <tr>
+            <th>#</th>
+            <th>Repuesto</th>
+            <th>Categoría</th>
+            <th>Cantidad</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Compresor 1/2 HP</td>
+            <td>Compresores</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Válvula de expansión</td>
+            <td>Válvulas</td>
+            <td>25</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container mt-4">
+    <h2>Nuevo contratista</h2>
+    <form>
+        <label class="form-label">Nombre</label>
+        <input type="text" name="nombre" class="form-control mb-3">
+
+        <label class="form-label">Ciudad</label>
+        <input type="text" name="ciudad" class="form-control mb-3">
+
+        <label class="form-label">Teléfono</label>
+        <input type="text" name="telefono" class="form-control mb-3">
+
+        <button type="button" class="btn btn-primary">Guardar</button>
+    </form>
+</div>
+{% endblock %}
